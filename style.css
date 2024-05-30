@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+    font-family: 'Robato', Georgia;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -9,6 +13,11 @@
     background-color: #1F2937;
     color: #f9faf8;
 
+}
+
+.info p {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .link {
@@ -38,7 +47,16 @@
     justify-content: start;
 }
 
+.info h1 {
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
 .info button {
     width: 75px;
     border-radius: 8px;
+    background-color: #3882F8;
+    border-color: #3882F8;
+    color: #f9faf8;
 }
