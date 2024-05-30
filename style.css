@@ -105,3 +105,29 @@ img {
     height: 200px;
     width: auto;
 }
+
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote > p {
+    padding: min;
+    width: 700px;
+}
+
+.name {
+    text-align: end;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
