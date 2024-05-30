@@ -136,7 +136,8 @@ img {
 .end {
     background-color: #3882F8;
     border-radius: 8px;
-    margin: 100px;
+    margin: 50px 100px;
+    height: 125px;
 }
 
 .action {
@@ -144,6 +145,18 @@ img {
     justify-content: space-around;
     align-items: center;
 }
+
+.text p {
+    color: white;
+    font-size: 16px;
+}
+
+.text.call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 
 .sign {
     width: 85px;
