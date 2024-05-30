@@ -1,11 +1,14 @@
 
-
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 360px;
+    gap: 300px;
     font-size: 24px;
     background-color: #1F2937;
     color: #f9faf8;
@@ -95,6 +98,9 @@ img {
 .card {
     font-size: 18px;
     color: #1F2937;
+    border: #1F2937;
+    border-width: 2px;
+    border-radius: 7px;
 }
 
 .card > img {
