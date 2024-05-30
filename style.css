@@ -125,9 +125,34 @@ img {
     width: 700px;
 }
 
+
 .name {
     text-align: end;
     font-size: 20px;
     font-style: normal;
     font-weight: bold;
 }
+
+.end {
+    background-color: #3882F8;
+    border-radius: 8px;
+    margin: 100px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign {
+    width: 85px;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 7px;
+    color: white;
+    background-color: #3882F8;
+}
+
